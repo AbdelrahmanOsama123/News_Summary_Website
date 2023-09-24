@@ -1,0 +1,205 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: Supermolot;
+    background-color: #1D1E22;
+}
+
+.header{
+    background-color: #FF5722;
+    width: 100%;
+    height: 10px;
+
+}
+#logo, #com{
+    margin: 0 auto;
+    padding: 0px;
+    text-align: center;
+    color: #FF5722;
+    /*transition: 0.2s;*/
+}
+#logo{
+    margin-top: 270px;
+    font-size: 50px;
+}
+
+#logo:hover, #com:hover{
+  animation: change-color 0.8s forwards;
+  cursor: pointer;
+  
+}
+
+#com{
+    margin-left: 380px;
+}
+/*@keyframes change-color {
+  to {
+    background: #8B0A21;
+  }
+
+}*/
+#txtbx, #bttn{
+  font-family: supermolot;
+}
+#txtbx{
+  margin: 20px 0px 0px 345px;
+  height: 40px;
+  width: 600px;
+  border: 2px solid #FF5722;
+  border-radius: 0px;
+  background-color: transparent;
+  font-size: 20px;
+  padding: 0px 10px;
+  color: rgb(255, 87, 34);
+  outline: 0px;
+  text-align: right;
+
+}
+
+#txtbx:hover{
+  
+  box-shadow: 5px 10px rgba(255, 87, 34, 0.10);
+}
+
+#bttn{
+  outline: 0px;
+  font-size: 20px;
+  margin: 20px 0px 0px 450px;
+  width: 400px;
+  height: 50px;
+  border: none;
+  border-radius: 0px;
+  background-color: #FF5722;
+  color: aliceblue;
+}
+#bttn:hover{
+  cursor: pointer;
+  background-color: rgba(255, 87, 34, 0.90);
+}
+#loginname{
+    right: 30px;
+    top: 30px;
+    color: #FF5722;
+    font-size: 80px;
+    position: absolute;
+    font-size: 20px
+}
+.reg{
+    margin-top: 10px;
+    margin-right: 100px;
+    padding: 1px;
+    width: 50px;
+    height: 80px;
+    text-height: 20px;
+    position: absolute;
+    right: 10px;
+    top:10px;
+    border-radius: 2px;
+   
+}
+.reg:hover{
+    cursor: pointer;
+    background-color: rgba(240, 240, 240, 0.1);
+}
+.reg .cyrclimg{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px; 
+    background-color: #FF5722;
+}
+.lgntxt{
+  font-family: supermolot;
+  color: #FF5722;  
+}
+.reg img{
+    width: 35px;
+    height: 35px;
+    margin-left: 8px;
+    margin-top: 7px
+}
+#lgn{
+    font-size: 13px;
+}
+#sgnp{
+    margin-right: 20px;
+    font-size: 13px;
+}
+#lgnform{
+    display: none;
+    position: absolute;
+    right: 100px;
+    top: 90px;
+}
+#sgnpform{
+    display: none;
+    position: absolute;
+    right: 80px;
+    top: 80px;
+}
+#lgnform, #sgnpform{
+    padding: 10px;
+    background-color: #1D1E22;
+    filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.9));
+    border-radius: 15px;
+    width: 370px;
+    height:550px;
+    margin-top: 50px;
+}
+
+.loglbl{
+    color: rgba(233, 81, 34, 0.2);
+    font-size: 90px;
+    padding-bottom: 150px
+}
+
+.usrlbl, .psslbl, #usernameError, #or{
+    color: rgb(233, 81, 34);
+    font-size: 20px;
+    margin-left: 15px;
+}
+#username, #password, #agebox{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #AAAABB;
+    height: 30px;
+    width: 320px;
+    margin-left: 15px;
+    font-size: 20px;
+    color: #f6f6f6;
+    outline: none;
+}
+#username:focus,#password:focus, #agebox:focus{
+    border-bottom: 2px solid rgba(233, 81, 34, 0.4);
+}
+#username:visited, #password:visited, #agebox:visited{
+    border-bottom: 2px solid #AAAABB;
+}
+
+#lgnBtn{
+    margin-top: 50px;
+    background-color: rgb(233, 81, 34);
+    border: none;
+    height: 50px;
+    width: 320px;
+    margin-left: 15px;
+    color: whitesmoke;
+    font-size: 30px;
+    font-family: Dash Horizon;
+    text-height: 200px;
+}
+
+#lgnBtn:hover{
+    background-color: rgba(233, 81, 34, 0.7);
+    border: none;
+    cursor: pointer;
+}
+#usernameError{
+    margin-left: 180px;
+    font-size: 18px;
+    color: rgb(164, 23, 38);
+}
+
+
+#sgnpform{
+    display: none;
+}
